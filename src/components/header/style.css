@@ -1,0 +1,22 @@
+h1 {
+  font-size: 2em;
+  margin: 20px;
+  color: #4d4d4d;
+}
+
+#navbar {
+  font-family: "Patrick Hand";
+  background-color: #eeeeee;
+  font-size: 2em;
+}
+
+ul#navbar li a {
+  display: block;
+  color: #ba9e95;
+  font-weight: bold;
+  padding: 48px 16px;
+  text-decoration: none;
+}
+li {
+  margin: 50px;
+}
