@@ -2,6 +2,14 @@
   padding: 10px 20px;
   background-color: #e94156;
   font-size: medium;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Patrick Hand";
   text-align: center;
 }
+
+.social {
+  font-size: 2em;
+}
+
+/* .icon {
+  margin: 5px;
+} */
