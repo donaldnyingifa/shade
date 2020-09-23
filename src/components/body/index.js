@@ -11,7 +11,7 @@ export default function body() {
       </Col>
 
       <Col md={6}>
-        <h2 className="center">WELCOME TO MY SPACE</h2>
+        <h2 className="center welcome">WELCOME TO MY SPACE</h2>
 
         <Row className="center resume">
           <Col className="a circle" md={4}>
