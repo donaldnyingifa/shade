@@ -4,6 +4,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import Home from "./pages/Home";
+
+import Header from "./components/header";
+import Body from "./components/body";
+import { Container } from "react-bootstrap";
+
 import Resume from "./pages/Resume";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
@@ -14,7 +19,13 @@ ReactDOM.render(
     <Router>
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home >
+          <Container>
+            <Header />
+            <Body />
+          </Container>
+            
+         </Home>
         </Route>
         <Route exact path="/resume">
           <Resume />

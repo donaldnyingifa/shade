@@ -3,6 +3,10 @@
 .center {
   text-align: center;
 }
+p {
+  margin: 10px;
+}
+
 
 /* .App-logo {
   height: 40vmin;
